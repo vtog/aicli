@@ -2,7 +2,7 @@ apiVersion: hive.openshift.io/v1
 kind: ClusterDeployment
 metadata:
   name: %(cluster)s
-  namespace: %(cluster)s
+  namespace: cluster0
 spec:
   baseDomain: %(domain)s
   clusterInstallRef:
